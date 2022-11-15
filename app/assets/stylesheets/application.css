@@ -13,3 +13,86 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: sans-serif ;
+}
+
+.container-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  margin: 40px;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.card{
+  font-size: 25px;
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+  flex-direction: row;
+  justify-content: left;
+  border: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  margin: 0;
+}
+
+ol {
+  padding: 0px;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+label {
+  font-size: 25px;
+}
+/* NEW TASK */
+
+.btn-primary a {
+  color: white;
+  margin: 0;
+}
+
+.new-container {
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  border-radius: 5px;
+  margin: 40px 0 40px 0;
+}
+
+/* A TASK */
+
+.back-button a {
+  margin: 0 auto;
+}

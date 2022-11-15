@@ -1,0 +1,14 @@
+<div class="new-container">
+  <%= form_with model: task, class: "form-group col-6" do |f| %>
+    <%= f.label :title, class: "pt-3" %>
+    <%= f.text_field :title, class: "form-control"%>
+    <%= f.label :details, class: "pt-3"  %>
+    <%= f.text_field :details, class: "form-control"%>
+    <% unless f.object.new_record? %>
+      <label class="mt-2">
+        <%= f.check_box :completed%> completed
+      </label>
+    <% end %>
+    <%= f.submit class: "btn btn-primary w-100 mt-5"%>
+  <% end %>
+</div>
